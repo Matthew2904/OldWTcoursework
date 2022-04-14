@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset ="UTF -8" />
+    <title> Web Technologies Coursework </title >
+    <link rel="stylesheet" href="coursework.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head >
+<script defer src="quiz.JS"></script>
+
+<body  onload="checkCookie()">
+
+
+
+    <!-- Navigation Bar -->
+    <div class="navBar">
+    <nav>
+        <ul>
+            <li class="navbarlist"><a href="file:///Users/matthewgibson/Documents/webTechnologies/webTechnologyPracticals/coursework/index.html"> <b>Home</b></a> </li>
+            <li class="navbarlist"><b class="active" shref="#Quiz">Quiz</b></li>
+            <li class="navbarlist"><a href="file:///Users/matthewgibson/Documents/webTechnologies/webTechnologyPracticals/coursework/Movies.html"> <b>Movie</b></a> </li>
+            <li style="float:right"><a href="file:///Users/matthewgibson/Documents/webTechnologies/webTechnologyPracticals/coursework/Author.html"> <b>Author</b></a> </li>
+        </ul>
+    </nav>
+    </div>
+
+
+    <div class="grid-container">
+
+        <div class="grid-item" id="grid-item1"> 
+            <img id="duneImage" src="venom.jpeg" alt="Italian Trulli" height="600" width = "240">
+        </div> 
+
+        <div class="grid-item" id="grid-item2">
+            <h1> 2021 Movie Quiz - Quiz</h1>
+
+
+            <div class="container">
+
+
+
+            
+
+                
+                <div id="question-container" class="hide">
+                <p id="counter"> The counter will replace this text</p>
+                <div id="question">Question</div>
+              
+
+                  <div id="results" class="hide"> The results will be displayed here 
+
+
+                    <div class="QuizGrid">
+                        <div class="result-item"  ><p>Question</p></div> 
+                        <div class="result-item"   ><p>Correct Answer</p> </div>
+                        <div class="result-item"><p>Your Answer</p> </div>
+                        <div class="result-item"><p>What is 2 + 2?</p> </div>
+                        <div class="result-item"><p>4</p> </div> 
+                        <div class="result-item" id="qgrid1"><p>PlaceHolder</p> </div>
+                        <div class="result-item"><p>Who is the best YouTuber?</p></div>
+                        <div class="result-item"><p>All</p></div> 
+                        <div class="result-item" id="qgrid2"><p>PlaceHolder</p> </div>
+                        <div class="result-item"><p>Is web development fun?</p> </div>
+                        <div class="result-item" ><p>YES!!!</p></div> 
+                        <div class="result-item"id="qgrid3"><p>PlaceHolder</p> </div>
+                        <div class="result-item"><p>What is 4 * 2?</p> </div>
+                        <div class="result-item"><p>8</p> </div>
+                        <div class="result-item" id="qgrid4"><p>PlaceHolder</p> </div>
+                    </div>
+                  </div>
+
+                  <div id="leaderboardGrid" style="display: none;">
+                    <div class="l-item"><p>Name</p></div> 
+                    <div class="l-item" ><p>Score</p> </div>
+                    <div class="l-item" id="p0"><p ></p>person1</div>
+                    <div class="l-item" id="hs0"><p>score1</p></div>
+                    <div class="l-item" id="p1"><p>person2</p></div> 
+                    <div class="l-item" id="hs1"><p>score2</p></div>
+                    <div class="l-item" id="p2"><p>person3</p></div>
+                    <div class="l-item" id="hs2"><p>score3</p></div> 
+                    <div class="l-item" id="p3"><p>person4</p> </div>
+                    <div class="l-item" id="hs3"><p>score4</p> </div>
+                    <div class="l-item" id="p4"><p>person5</p></div> 
+                    <div class="l-item" id="hs4"><p>score5</p></div>
+                </div>
+
+                  <div id="answer-buttons" class="btn-grid">
+                    <button class="btn" id="choice1">Answer 1</button>
+                    <button class="btn" id="choice2">Answer 2</button>
+                    <button class="btn" id="choice3">Answer 3</button>
+                    <button class="btn" id="choice4">Answer 4</button>
+                  </div>
+                </div>
+                <div class="controls">
+                  <button id="start-btn" class="start-btn btn">Start</button>
+                  <button id="next-btn" class="next-btn btn hide">Next</button>
+                  <button id="result-btn" class="btn hide">Results</button>
+                  <button id="leaderboard-btn" class="next-btn btn hide">Leaderboard</button>
+                </div>
+              </div>
+                    
+
+       
+        </div>
+
+        <div class="grid-item" id="grid-item3">
+            <img id="spidermanImage" src="eternals1.webp" alt="Italian Trulli" height="600" width = "240">
+        </div> 
+    </div>
+
+
+   
+    
+
+
+
+</body>
+<footer>
+    <div class="footerGrid">
+        <div class="footer-item"> <img src="icons8-person-64.png" class="footerImage"> </div> 
+        <div class="footer-item">Matthew Gibson</div>
+        <div class="footer-item"></div> 
+        <div class="footer-item"> <img src="icons8-organization-50.png"  class="footerImage"></div>
+        <div class="footer-item">Edinburgh Napier University</div> 
+        <div class="footer-item"><img src="icons8-phone-50.png"  class="footerImage"></div>
+        <div class="footer-item">(+44)7491160841</div> 
+        <div class="footer-item"></div> 
+        <div class="footer-item"><img src="icons8-class-64.png"  class="footerImage"></div>
+        <div class="footer-item">Web Technologies</div>
+        <div class="footer-item"><img src="icons8-mail-50.png"  class="footerImage"></div>
+        <div class="footer-item">40494132@live.napier.ac.uk</div>
+        <div class="footer-item"></div>
+        <div class="footer-item"><img src="icons8-location-50.png"  class="footerImage" ></div>
+        <div class="footer-item">10 Colinton Road, Edinburgh</div>
+
+    </div>
+
+</footer>
+</html>

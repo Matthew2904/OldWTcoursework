@@ -1,0 +1,486 @@
+body{
+    background-color: white ;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+/* Navigation Bar */
+
+.navBar { 
+    
+    background-color: lightblue;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+   
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+  
+
+  
+    li b {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+        
+    }
+    li a {
+
+        text-decoration: none;
+        
+    }
+
+   .navbarlist{
+       float: left;
+       margin-left: 0px;
+   }
+
+
+   li{
+       float: left;
+       text-align: center;
+       margin-left: 25%;
+
+   }
+
+
+  
+    li b:hover {
+        background-color: lightgrey;
+    }
+  
+    .active {
+        background-color: mediumpurple ;
+    }
+
+
+
+
+/* Grid Container and items */
+
+    .grid-container {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: grid;
+        grid-template-columns: 20% auto 20%; 
+
+        padding: 0px; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+
+
+    .grid-item {
+        background-color: beige;
+        color: navy;
+        padding: 0px; 
+        font-size: 20px;
+        text-align: center; 
+       border: 5px solid white;
+    }
+
+
+
+   #grid-item1 {
+       
+       background-color: lightblue
+   }
+   #grid-item3 {
+    
+    background-color: lightblue
+
+}
+
+    #grid-item2 {
+        padding: 10px;
+        overflow-y: auto;
+        max-height: 625px;
+        /* Images list-style-position: inside; */
+    }
+
+#moviePage{
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 1525px;
+}
+
+
+
+
+    #quizButton {
+        border: 10px lightgrey;
+        color: white;
+        background-color: lightgrey;
+        padding: 40px 65px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 16px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        height: 100px;
+        width: 250px;
+    }
+  
+
+
+
+
+  
+    #quizButton:hover {
+        background-color: mediumpurple;
+        color: white;
+    }
+  
+
+
+
+
+
+
+
+  /*- Images -*/
+
+  #duneImage {
+      padding: 20px;
+      align-items: center;
+      
+  }
+
+  #spidermanImage {
+    padding: 20px;
+    
+}
+
+
+
+section{
+    padding: 20px;
+}
+
+
+figure {
+    border: 5px lightgrey solid;
+    padding: 4px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+  
+
+figcaption {
+    background-color:hsl(273, 73%, 75%);
+    color: white;
+    font-style:italic;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    padding: 20px;
+    background-color: #CB90BC;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 5% 40% 10% 5% 40%; 
+    background-color:#CB90BC;
+   padding-left : 300px;
+    padding-top: 0px;
+    padding-right: 100px
+    
+}
+
+.footer-item {
+text-align: left;
+    border: 0px solid rgba(0, 0, 0, 0.4);
+    padding: 10px; 
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.footerImage {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*- Quiz Box CSS 
+
+.container{
+    border: 5px black solid;
+    height: 475px;
+    border-radius: 25px;
+    padding: 10px;
+
+  }
+
+
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+  
+    border: 5px solid black;
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: navy;
+    outline: none;
+  }
+
+
+  
+  .btn:hover {
+    background-color: red;
+  }
+  
+
+
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
+  }
+
+
+  
+  .start-btn, .next-btn {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+  */
+
+
+  
+
+  
+
+
+  
+  .container {
+    height: 475px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 5px black solid;
+
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0px;
+  }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid black;
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 10px 10px;
+
+    color: black;
+    outline: none;
+  }
+  
+  .btn:hover {
+    border-color: yellow;
+    
+  }
+  
+  .btn.correct {
+    background-color: green;
+    color: black;
+  }
+  
+  .btn.wrong {
+      background-color: red;
+    --hue: var(--hue-wrong);
+  }
+  
+  .start-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+ .next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 50px 20px;
+  }
+
+  .controls {
+    display: block; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+#question {
+    margin-top: 50px;
+    font-size:  40px;
+    font-weight: bold;
+}
+
+#answer-buttons {
+margin-top: 50px;
+
+}
+  
+  
+
+  
+.QuizGrid {
+    display: grid;
+    grid-template-columns: 50% 25% 25%; 
+    background-color:white;
+
+    border: 3px solid black;
+}
+
+
+#leaderboardGrid {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    background-color:white;
+
+    border: 3px solid black;
+}
+
+.result-item, .l-item {
+
+    border: 3px solid black;
+    padding: 10px; 
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+#result-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 50px 20px; 
+}
+
+
+
+#counter{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
